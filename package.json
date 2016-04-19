@@ -1,0 +1,23 @@
+{
+  "name": "xiaoxz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bigArli/test.git"
+  },
+  "author": "xiaoxz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bigArli/test/issues"
+  },
+  "homepage": "https://github.com/bigArli/test#readme",
+  "devDependencies": {
+    "webpack": "^2.0.5-beta"
+  }
+}
