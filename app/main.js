@@ -5,5 +5,5 @@ import App from './component.jsx';
 main();
 
 function main() {
-    ReactDOM.render(<App />, document.getElementById('app'));
+    ReactDOM.render(<App />, document.getElementById('app'))
 }
