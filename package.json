@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --hot --content-base build"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,12 @@
   },
   "homepage": "https://github.com/bigArli/test#readme",
   "devDependencies": {
-    "webpack": "^2.0.5-beta"
+    "babel": "^6.5.2",
+    "babel-core": "^6.7.6",
+    "babel-loader": "^6.2.4",
+    "path": "^0.12.7",
+    "react": "^15.0.1",
+    "webpack": "^2.0.5-beta",
+    "webpack-dev-server": "^1.14.1"
   }
 }
